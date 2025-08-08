@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Simples</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Calculadora de Mercadoria</h1>
+    <p>Insira os valores para realizar o cálculo.</p>
+
+    <div class="input-group">
+      <label for="valorMercadoria">Valor da Mercadoria:</label>
+      <input type="number" id="valorMercadoria" placeholder="Ex: 50.00">
+    </div>
+
+    <div class="input-group">
+      <label for="numeroMultiplicacao">Número da Multiplicação:</label>
+      <input type="number" id="numeroMultiplicacao" placeholder="Ex: 3">
+    </div>
+
+    <button id="calcularBtn">Calcular</button>
+
+    <div class="resultado-container">
+      <p>((preço x multiplicador) x 10) / 12 ) x 2</p>
+      <h2>Resultado:</h2>
+      <p id="resultado">Aguardando valores...</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
